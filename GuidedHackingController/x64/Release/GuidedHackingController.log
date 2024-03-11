@@ -1,0 +1,30 @@
+﻿  GuidedHackingController.cpp
+C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\GuidedHackingController.cpp(17,22): warning C4305: 'initializing': truncation from '__int64' to 'ULONG'
+C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\GuidedHackingController.cpp(17,24): warning C4309: 'initializing': truncation of constant value
+C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\kernelinterface.hpp(61,22): warning C4244: '=': conversion from 'SIZE_T' to 'ULONG', possible loss of data
+  (compiling source file 'GuidedHackingController.cpp')
+  C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\kernelinterface.hpp(61,22):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\GuidedHackingController.cpp(18,45):
+  	see reference to function template instantiation 'type KernelInterface::ReadVirtualMemory<uint32_t>(ULONG,ULONG,SIZE_T)' being compiled
+          with
+          [
+              type=uint32_t
+          ]
+  
+C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\kernelinterface.hpp(86,23): warning C4244: '=': conversion from 'SIZE_T' to 'ULONG', possible loss of data
+  (compiling source file 'GuidedHackingController.cpp')
+  C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\kernelinterface.hpp(86,23):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Mercy\Desktop\GuidedHacking\GuidedHackingController\GuidedHackingController.cpp(25,15):
+  	see reference to function template instantiation 'bool KernelInterface::WriteVirtualMemory<float>(ULONG,ULONG,type,SIZE_T)' being compiled
+          with
+          [
+              type=float
+          ]
+  
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  GuidedHackingController.vcxproj -> C:\Users\Mercy\Desktop\GuidedHacking\x64\Release\GuidedHackingController.exe
